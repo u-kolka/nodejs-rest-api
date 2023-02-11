@@ -5,7 +5,7 @@ const { nanoid } = require("nanoid");
 const { User } = require("../models/users");
 const { HttpError } = require("./error-func");
 
-require("dotenv").config();
+require("dotenv").config(); 
 
 const { JWT_SECRET } = process.env;
 
